@@ -719,26 +719,26 @@
   import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
 
   const widget = await Chatbox.initBubble({
-    agentId: 'cm4wa1mh00iamppjjbycr6dxo',
+    agentId: 'cm5gbv76n0tmp62ae37icol4u',
     
     // optional 
     // If provided will create a contact for the user and link it to the conversation
     contact: {
-      firstName: 'John',
-      lastName: 'Doe',
-      email: 'customer@email.com',
-      phoneNumber: '+33612345644',
+      firstName: '',
+      lastName: '',
+      email: '',
+      phoneNumber: '',
       userId: '42424242',
     },
     // optional
     // Override initial messages
     initialMessages: [
-      'Hello Georges how are you doing today?',
+      'Hello! how are you doing today?',
       'How can I help you ?',
     ],
     // optional
     // Provided context will be appended to the Agent system prompt
-    context: "The user you are talking to is John. Start by Greeting him by his name.",
+    context: "",
   });
 
   // open the chat bubble
